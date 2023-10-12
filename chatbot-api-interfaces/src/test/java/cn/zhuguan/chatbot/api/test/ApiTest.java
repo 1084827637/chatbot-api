@@ -45,7 +45,7 @@ public class ApiTest {
         // 1.创建httpClient
         CloseableHttpClient httpClient = HttpClientBuilder.create().build();
         // 2.创建post请求,构建post请求需要的字符串
-        HttpPost httpPost = new HttpPost("https://api.zsxq.com/v2/topics/411542541244448/comments");
+        HttpPost httpPost = new HttpPost("https://api.zsxq.com/v2/topics/811254851518282/comments");
         httpPost.addHeader("Cookie","zsxq_access_token=B58C67C3-E354-C92F-5F78-464DD4621438_278A224983F24285; abtest_env=product; zsxqsessionid=f539bd7f55ac33eaf44bc01f1511d4d7");
         //httpPost.addHeader("Accept","application/json, text/plain, */*");
         httpPost.addHeader("Content-Type","application/json;charset=utf8");
